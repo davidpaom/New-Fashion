@@ -1,0 +1,116 @@
+body{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #a14069;
+}
+
+.caja{
+    background-color: #a14069;
+    display: flex; 
+}
+
+.caja img{
+    position: relative;
+    left: 50px;
+    width: 150px;
+}
+
+.menu{
+    margin: auto;
+    margin-right: 0;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    margin: auto 10px;
+}
+
+.menu a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    .caja{
+        background-color: #a14069;
+        display: block;
+        text-align: center;
+    }
+    .menu ul {
+        display: contents;
+        text-align: center;
+    }
+    .caja img{
+        position: relative;
+        left: 0px;
+        width: 150px;
+    }
+}
+
+footer{
+    text-align: center;
+    background: url(Imagenes/logo-blanco.png);
+    padding: 5px;
+}
+
+.copyright{
+    color:white;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.container{
+    margin: 10px auto;
+    text-align: center;
+    font-size: x-large;
+    border-top: 4px solid #a14069;
+}
+
+.titulo-servicio{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.img-services{
+    height: 400px;
+}
+
+form{
+    margin: 20px;
+    font-size: 25px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.input-padron{
+    margin-top: 0px;
+}
+
+.cuestionario{
+    text-align: center;
+}
+
+.redes-sociales{
+    text-align: center;
+}
+
+.img-redes{
+    height: 100px;
+}
+
+.Mapas{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
